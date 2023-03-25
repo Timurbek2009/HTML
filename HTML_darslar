@@ -1,0 +1,343 @@
+#1 Headings
+<!DOCTYPE html>
+
+<html>
+        <head>
+            <title>headings va Paragraphs </title>
+        </head>
+        <body>
+            <h>Heading 1</h>
+            <h3>heading 3</h3>
+            <h4>heading 4</h4>
+            <h5>heading 5</h5>
+            <h6>heading 6</h6>
+        </body>
+</html>
+
+#2 Paragraphs
+
+<hmtl>
+    <head>
+        <title>heading va paragraphs</title>
+    </head>
+    <body> 
+        <h1>What is Lorem Ipsum?</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <h1>Why do we use it?</h1>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </body>
+</hmtl>
+
+#3 styles
+<hmtl>
+    <head>
+        <title>styles</title>
+    </head>
+    <body> 
+        <h1 style="opacity: 0.50;">What is Lorem Ipsum?</h1>
+        <p style="color: red">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <h1>Why do we use it?</h1>
+        <p style="color: blue; text-align: center; font-weight: bold;">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </body>
+</hmtl>
+
+#4 Formatting
+<hmtl>
+    <head>
+        <title>formatting</title>
+    </head>
+    <body> 
+        <h1>What is Lorem Ipsum?</h1>
+        <p>
+            Lorem Ipsum is <b>simply dummy</b> <i>text of the printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            It is a long <del>established fact that</del> a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+        <p>
+            H<sub>2</sub>O
+        </p>
+        <p>
+            x<sup>2</sup>
+        </p>
+    </body>
+</hmtl>
+
+#5 Comments
+<hmtl>
+    <head>
+        <title>formatting</title>
+    </head>
+    <body> 
+        <h1>What is Lorem Ipsum?</h1>
+        <!-- h1 bizga sarlavha yaratishga yordam beradi -->
+        <p>
+            Lorem Ipsum is <b>simply dummy</b> <i>text of the printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <!--p esa paragraph vazifasini bajaradi-->
+        <p>
+            It is a long <del>established fact that</del> a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+        <!--bu qism ko'rsatilmay turiladi
+        <p>
+            H<sub>2</sub>O
+        </p>
+        <p>
+            x<sup>2</sup>
+        </p>
+    -->
+    </body>
+</hmtl>
+
+#6 CSS 1,2 qism
+<hmtl>
+    <head>
+        <title>styles</title>
+        <style>
+            P {
+                color:blue;
+                font-weight : bold; 
+                text-align : center;
+            }
+            h1{
+                color:aqua;
+            }
+        </style>
+    </head>
+    <body> 
+        <h1 ">What is Lorem Ipsum?</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <h1>Why do we use it?</h1>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </body>
+</hmtl>
+<hmtl>
+    <head>
+        <title>styles</title>
+       <link rel="stylesheet" href="stillar.css"
+    </head>
+    <body> 
+        <h1 ">What is Lorem Ipsum?</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <h1>Why do we use it?</h1>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </body>
+</hmtl>
+
+#7 Links
+<hmtl>
+    <head>
+        <title>styles</title>
+       <link rel="stylesheet" href="stillar.css"
+    </head>
+    <body> 
+        <h1 ">What is Lorem Ipsum?</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <h1>Why do we use it?</h1>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </body>
+</hmtl>
+
+#8 Tables
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+            table{
+                width: 100%;
+                border-collapse: collapse;        
+            }
+            thead{
+                text-align: left;    
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 5px;
+            }   
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Familiya
+                    </th>
+                    <th>
+                        Yosh
+                    </th>
+                    <th>
+                        Qiziqishi
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                
+#9 Lists
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ro'yxatlar(lists)</title>
+    </head>
+    <body>
+        <h3>
+            Mevalar ro'yxati
+        </h3>
+        <ul>
+            <li>
+                Olma
+            </li>
+            <li>
+                Nok
+            </li>
+            <li>
+                Uzum
+            </li>
+            <li>
+                Tarvuz
+            </li>
+            <li>
+                Yangi mevalar:
+                <ul>
+                    <li>
+                        Anor        
+                    </li>
+                    <li>
+                        Behi
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <ol>
+            <h3>
+                Ismlar ro'yxati
+            </h3>
+            <li>
+                Nasiba       
+            </li>    
+            <li>
+                Nigina 
+            </li>
+            <li>
+                Nodir
+            </li>
+            <li>
+                Timur
+            </li>
+            <li>
+                Tom and Jerry
+            </li>
+            <li>
+                Boshqa ismlar:
+                <ol>
+                    <lil>Javohir</lil>
+                    <li>Jaxongir</li> 
+                    <li>Sardor</li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>
+
+#10 Class
+<!DOCTYPE head>
+<html>
+    <head>
+        <title>
+            Class
+        </title>
+    </head>
+    <style>
+       .qizil {
+        color:red;
+        font-weight:bold;
+        text-align:center;
+       }
+       .grey {
+        color: grey;
+        font-weight: bold;
+        text-align:left;
+        font-size:20px;
+       }
+    </style>
+    <body>
+        <p class="qizil">
+            Lorem Ipsum is simply dummy text of the printing       
+        </p>
+        <p class="grey">
+            It is a long established fact that a reader will be        
+        </p>
+        <p class="grey">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. 
+        </p>
+        <p class="grey">
+            There are many variations of passages of Lorem Ipsum available        
+        </p>
+        <p class="qizil">
+            Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary               
+        </p>
+    </body>
+</html>
+
+#11 Block va Inline
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Block and inline</title>
+    </head>
+    <body>
+       
+        <h1>
+            Salom
+        </h1>
+        <h1>
+            Dunyo
+        </h1>
+        <p>
+            Lorem ipsum
+        </p>
+        <p>
+            p "tag"i block element yaratishda yordam beradi
+        </p>
+        <p>
+            <a href="http://google.r">Google.ru ga o'tish,<b>o'tish</b></a>
+        </p>
+    <a href="http://youtube.com">You tube ga o'tish</a>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
